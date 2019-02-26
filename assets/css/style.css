@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700|Homemade+Apple:100,200,300,400,500,600,700');
 
 
+.main-body {
+    padding: 0;
+}
+
 .image-div {
     background-image: url('../images/psycrow.jpg');
-    /*    min-height: 150px; */
     height: 90%;
-    position: absolute;
+    padding: 0;
+    position: relative;
     top: 0;
     left: 0;
     background-repeat: no-repeat;
@@ -14,34 +18,47 @@
     overflow: visible;
     background-color: black;
     text-align: center;
+}
+
+.social-row {
+    position: relative;
+    top: 0;
+    width: 100%;
 
 }
 
 .social-links p a i {
     color: black;
-    margin-top: 30px;
+    margin-top: 15px;
     font-size: 40px;
 }
 
 .bandname {
     color: black;
-    font-size: 70px;
-    
+    font-size: 50px;
     font-style: italic;
     font-family: 'Exo', sans-serif;
     font-weight: bold;
     text-align: center;
     /* margin-top: 70%; */
-    position: fixed;
-    top: 50%;
-    width: 110%;
+    position: relative;
+    top: 60%;
+    width: 100%;
     background-color: pink;
+    height: 70px;
+    z-index: 1;
+}
+
+.name-row {
+    position: absolute;
+    text-align: center;
+    width: 100%;
 }
 
 .nav-row {
-    height: 50px;
+    height: 7%;
     background-color: black;
-    position: fixed;
+    position: relative;
     top: 90%;
     width: 100%;
     margin: 0;
@@ -56,10 +73,54 @@
     font-family: 'Exo', sans-serif;
 }
 
+/* ------------------------------------------------------- Photo Section */
 
-@media (min-width:767px) {
+.live-shots {
+    background-color: orange;
+    position: relative;
+    top: 97%;
+    min-height: 100px;
+    text-align: center;
+}
+
+.shot-frame {
+    height: 250px;
+    width: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 7px;
+    margin: 15px;
+}
+
+.frame-one {
+    background-image: url('../images/setphotos/canarylive.jpg');
+}
+
+.frame-two {
+    background-image: url('../images/setphotos/canarylive2.jpg');
+}
+
+.frame-three {
+    background-image: url('../images/setphotos/canaryshot.jpg');
+}
+
+.frame-four {
+    background-image: url('../images/setphotos/font-cover-canary-live.jpg');
+}
+
+.frame-five {
+    background-image: url('../images/setphotos/img_6172.jpg');
+}
+
+.frame-six {
+    background-image: url('../images/setphotos/img_7523.jpg');
+}
+
+
+/* @media (min-width:767px) {
     .bandname {
         /* margin-top: 280px;
         font-size: 100px;
-    }
+    } */
+
 }
