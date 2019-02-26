@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700|Homemade+Apple:100,200,300,400,500,600,700');
 
 
+/* ----------------------------------------------------- General */
+
 .main-body {
     padding: 0;
 }
+
+.h3 {
+    font-family: "Roboto", sans-serif;
+}
+
+/* ------------------------------------------------------ Background Image, Social, Name banner */
 
 .image-div {
     background-image: url('../images/psycrow.jpg');
@@ -55,6 +63,8 @@
     width: 100%;
 }
 
+/* --------------------------------------------------------- Nav */
+
 .nav-row {
     height: 7%;
     background-color: black;
@@ -75,26 +85,37 @@
 
 /* ------------------------------------------------------- Photo Section */
 
+.photo-container {
+    display: inline-block;
+
+}
+
 .live-shots {
-    background-color: orange;
+    background-color: pink;
     position: relative;
     top: 97%;
     min-height: 100px;
-    text-align: center;
+
+
 }
 
 .shot-frame {
     height: 250px;
-    width: 250px;
+    width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 7px;
     margin: 15px;
+    text-align: center;
+
 }
 
-.frame-one {
-    background-image: url('../images/setphotos/canarylive.jpg');
+.frame-one img {
+
+    width: 150px;
 }
+
+/*
 
 .frame-two {
     background-image: url('../images/setphotos/canarylive2.jpg');
@@ -115,7 +136,64 @@
 .frame-six {
     background-image: url('../images/setphotos/img_7523.jpg');
 }
+*/
 
+/* ---------------------------------------------------------- News Page */
+
+.news-body {
+    background-color: #452631;
+
+}
+
+.eye-div {
+    background-image: url('../images/eyedisk.png');
+    height: 200px;
+    width: 100%;
+    padding: 0;
+    position: relative;
+    top: 25px;
+    left: 15px;
+    background-repeat: no-repeat;
+    /*background-position: top center;*/
+    background-size: contain;
+    overflow: visible;
+}
+
+.title {
+    color: pink;
+    font-size: 50px;
+    font-family: "Exo", sans-serif;
+    font-weight: bold;
+    padding-top: 6%;
+}
+
+.news-item {
+    color: black;
+    
+}
+
+.news-item-heading,
+.news-color p {
+    background-color: #f8f2e2;
+}
+
+.news-item-heading {
+    margin-bottom: 0;
+    border: none;
+    padding: 10px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    
+}
+
+.news-color p {
+    margin-top:0;
+    border: none;
+    padding: 10px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+   
+}
 
 /* @media (min-width:767px) {
     .bandname {
