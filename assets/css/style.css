@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700|Homemade+Apple:100,200,300,400,500,600,700');
+
+
+.image-div {
+    background-image: url('../images/psycrow.jpg');
+    /*    min-height: 150px; */
+    height: 90%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    overflow: visible;
+    background-color: black;
+    text-align: center;
+
+}
+
+.social-links p a i {
+    color: black;
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+.bandname {
+    color: black;
+    font-size: 70px;
+    
+    font-style: italic;
+    font-family: 'Exo', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    /* margin-top: 70%; */
+    position: fixed;
+    top: 50%;
+    width: 110%;
+    background-color: pink;
+}
+
+.nav-row {
+    height: 50px;
+    background-color: black;
+    position: fixed;
+    top: 90%;
+    width: 100%;
+    margin: 0;
+}
+
+.nav-link {
+    text-align: center;
+    font-size: 18px;
+    /*font-style: italic;*/
+    padding-top: 10px;
+    color: pink;
+    font-family: 'Exo', sans-serif;
+}
+
+
+@media (min-width:767px) {
+    .bandname {
+        /* margin-top: 280px;
+        font-size: 100px;
+    }
+}
